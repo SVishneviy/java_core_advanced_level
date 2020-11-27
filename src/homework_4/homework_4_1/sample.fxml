@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="homework_4_1.Controller">
+   <center>
+      <TextArea fx:id="textArea" editable="false" />
+   </center>
+   <bottom>
+      <HBox prefWidth="Infinity">
+         <TextField fx:id="textField" onKeyPressed="#onKeyPressed" HBox.hgrow="ALWAYS" />
+         <Button text="Отправить" onAction="#onClick" prefWidth="100.0" HBox.hgrow="ALWAYS" />
+      </HBox>
+   </bottom>
+</BorderPane>
