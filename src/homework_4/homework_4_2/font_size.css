@@ -1,0 +1,9 @@
+.text-area {
+    -fx-font-size: 20pt;
+}
+#equally {
+    -fx-background-color: #976BE2
+}
+#equally:hover {
+    -fx-background-color: #8857DC
+}

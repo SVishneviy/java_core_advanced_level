@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="homework_4_2.Controller" >
+   <stylesheets>
+      <URL value="@font_size.css" />
+   </stylesheets>
+   <top>
+      <TextArea fx:id="textArea" prefHeight="200.0" prefWidth="Infinity" editable="false" />
+   </top>
+   <bottom>
+      <GridPane prefHeight="400.0" prefWidth="Infinity">
+         <Button text="1" onAction="#onClickNumber" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="0"
+                 GridPane.columnIndex="0"/>
+         <Button text="2" onAction="#onClickNumber" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="0"
+                 GridPane.columnIndex="1"/>
+         <Button text="3" onAction="#onClickNumber" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="0"
+                 GridPane.columnIndex="2"/>
+         <Button text="4" onAction="#onClickNumber" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="1"
+                 GridPane.columnIndex="0"/>
+         <Button text="5" onAction="#onClickNumber" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="1"
+                 GridPane.columnIndex="1"/>
+         <Button text="6" onAction="#onClickNumber" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="1"
+                 GridPane.columnIndex="2"/>
+         <Button text="7" onAction="#onClickNumber" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="2"
+                 GridPane.columnIndex="0"/>
+         <Button text="8" onAction="#onClickNumber" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="2"
+                 GridPane.columnIndex="1"/>
+         <Button text="9" onAction="#onClickNumber" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="2"
+                 GridPane.columnIndex="2"/>
+         <Button text="0" onAction="#onClickNumber" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="3"
+                 GridPane.columnIndex="0"/>
+         <Button text="." onAction="#onClickNumber" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="3"
+                 GridPane.columnIndex="1"/>
+         <Button fx:id="equally" text="=" onAction="#onClickEqually" prefHeight="100.0" prefWidth="150.0"
+                 GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+         <Button text="/" onAction="#onClickOperation" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="0"
+                 GridPane.columnIndex="3"/>
+         <Button text="*" onAction="#onClickOperation" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="1"
+                 GridPane.columnIndex="3"/>
+         <Button text="-" onAction="#onClickOperation" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="2"
+                 GridPane.columnIndex="3"/>
+         <Button text="+" onAction="#onClickOperation" prefHeight="100.0" prefWidth="150.0" GridPane.rowIndex="3"
+                 GridPane.columnIndex="3"/>
+      </GridPane>
+   </bottom>
+</BorderPane>
